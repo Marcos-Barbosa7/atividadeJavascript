@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+  color: #333;
+  text-align: center; /* Centralizar tudo */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #fffcfc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #f5f5dc;
+  color: rgb(11, 10, 10);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block; /* Centralizar botão */
+}
+
+button:hover {
+  background-color: #dadada;
+}
+
+input {
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(20% - 30px);
+  display: block; /* Centralizar input */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Blocos coloridos */
+#elementById,
+[name='elementByName'],
+.elementByClass {
+  padding: 10px;
+  margin: 10px auto;
+  width: 70%;
+  border-radius: 8px;
+  text-align: center; /* Centralizar texto dentro do bloco */
+}
+
+/* Cor inicial (padrão) */
+#elementById {
+  background-color: #e0f7fa;
+}
+
+[name='elementByName'] {
+  background-color: #e0f7fa;
+}
+
+.elementByClass {
+  background-color: #e0f7fa;
+}
+
+/* Caixas maiores (sections) */
+section {
+  background-color: #988888;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
